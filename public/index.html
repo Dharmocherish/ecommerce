@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="relative">
+    <div class="signup bg-black p-4 lg:p-4 md:p-2 text-center align-middle">
+        <p class="text-white text-xs md:text-sm  md:text-center lg:text-sm">Sign up and get 20% off to your first order. <a href="#"
+                class="underline decoration-solid">Sign Up Now</a></p>
+    </div>
+    <!-- <nav class="left-0 right-0 top-20 h-20 align-middle bg-white">
+       
+    </nav> -->
+    <!-- Navbar -->
+    <div class="navbar flex justify-between md:flex md:justify-between lg:flex lg:justify-between p-2 md:p-3 lg:py-4 lg:px-4 mx-auto lg:mx-10 lg:items-center  h-full">
+        <!-- menu icon -->
+        <div class="menu lg:hidden" id="menuIcon">
+            <img src="assets/Frame (2).png" alt="">
+        </div>
+        <!-- logo -->
+        <div class="logo text-base sm:text-3xl font-extrabold flex ">
+            <h3>SHOP.CO</h3>
+        </div>
+        <!-- options for desktop-->
+        <div class="options lg:text-lg lg:flex align-middle gap-5 mr-[3rem] hidden ">
+            <a href="#" class="shop">Shop</a>
+            <a href="#" class="sales">On Sale</a>
+            <a href="#" class="arrivals">New Arrivals</a>
+            <a href="#" class="brands">Brands</a>
+        </div>
+
+      
+        <!-- search -->
+        <div class="search lg:flex bg-[#F2F0F1] rounded-full px-24 py-3 hidden">
+            <div class="search-img">
+                <img src="assets/Frame (3).png" id="searchButton" alt="">
+            </div>
+            <form>
+                <input type="text" class="bg-[#F2F0F1]" id="searchInput" placeholder="Search for products...">
+            </form>
+
+        </div>
+        <!-- cart, search and profile icon -->
+        <div class="1con flex items-center space-x-3">
+            <div class="search1 lg:hidden">
+                <img src="assets/Frame (1).png" alt="">
+            </div>
+            <div class="cart relative" id="cartIcon">
+                <img src="assets/Vector.png" alt="">
+                <span id="cartBadge" class="hidden absolute top-[-12px] right-[-15px] bg-red-500 text-white text-xs rounded-full h-6 w-6 px-2 py-1"></span>
+            </div>
+            <div class="profile">
+                <img src="assets/Frame.png" alt="">
+            </div>
+        </div>
+        
+
+    </div>
+    <div class="bg-[#F2F0F1] hidden" id="navbarLinks">
+        <!-- options for small and medium screen -->
+        <div class="flex flex-col gap-5 text-center lg:hidden absolute top-[5.1rem] z-20 bg-white px-6 py-4 w-[100%] h-[100vh]" id="navbarLinks">
+            <a href="#" class="shop">Shop</a>
+            <a href="#" class="sales">On Sale</a>
+            <a href="#" class="arrivals">New Arrivals</a>
+            <a href="#" class="brands">Brands</a>
+        </div>
+    </div>
+    
+    <!-- <main class="main bg-[#F2F0F1] h-[100vh]">
+    </main> -->
+    <!-- adverts -->
+    <div class="mx-auto bg-[#F2F0F1] h-[70rem] md:h-[30rem] lg:h-[600px] mt-[-o.2rem] flex flex-col md:flex md:flex-row lg:flex lg:flex-row lg:justify-between">
+        <div class="left">
+            <div class="adverts text-4xl lg:text-6xl mx-3 lg:mx-14 lg:py-16 py-7">
+                <h3 class="font-extrabold">FIND CLOTHES <br> THAT MATCHES <br> YOUR STYLE</h3>
+            </div>
+
+            <p class="text-xs text-gray-600 mx-3 w-[100%] md:hidden lg:hidden">Browse through our diverse range of meticulously crafted garments, <span class="flex flex-col">designed to bring out your
+                individuality and cater to your sense of style.</span></p>
+            
+            <p class="mx-3 lg:mx-14 lg:my-[-2em]lg:text-sm text-gray-600 hidden md:flex lg:flex">Browse through our diverse range of meticulously crafted garments, designed <br> to bring out your
+                individuality and cater to your sense of style.</p>    
+            <button class="lg:mx-14 lg:my-16 md:mx-3 md:my-9 mx-[8rem] my-7 bg-black text-white px-6 py-3 rounded-full text-center">Shop Now</button>
+    
+            <div class="activities md:mx-3 lg:mx-14 mx-[7rem] flex flex-col md:flex-row gap-10 md:my-[-1.5rem] lg:my-[-2.5rem] my-[0.9rem]">
+                <div class="order1 flex lg:flex-row gap-10">
+                    <div class="brands">
+                        <h3 class="text-4xl font-extrabold">200+</h3>
+                        <p class="text-gray-600 md:text-xs">International Brands</p>
+                    </div>     
+                    <div class="products">
+                        <h3 class="text-4xl font-extrabold">2,000+</h3>
+                        <p class="text-gray-600 md:text-xs">High-Quality products</p>
+                    </div>
+                </div>
+               <div class="order2">
+                    <div class="customers text-center">
+                        <h3 class="text-4xl font-extrabold">30,000+</h3>
+                        <p class="text-gray-600 md:text-xs lg:text-center">Happy Customers</p>
+                    </div>
+               </div>
+                
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="img flex my-7">
+                <div class="img1">
+                    <img src="assets/Vector (1).png" class="w-16 my-48" alt="">
+                </div>
+                <div class="img2">
+                    <img src="assets/Rectangle 2.png" class="w-[100%] md:h-[25rem] lg:h-[36rem]" alt="">
+                </div>
+                <div class="img3">
+                    <img src="assets/Vector (1).png" class="mr-5" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brands for desktop screen -->
+     <div>
+        <div class="brands hidden lg:flex lg:justify-around bg-black py-10">
+                <img src="assets/Group.png" alt="">
+                <img src="assets/zara-logo-1 1.png" alt="">
+                <img src="assets/gucci-logo-1 1.png" alt="">
+                <img src="assets/prada-logo-1 1.png" alt="">
+                <img src="assets/Group (1).png" alt="">
+         </div>
+     </div>
+    <!-- Brands for small and medium screen -->
+     <div class="brands flex flex-col justify-around bg-black py-10 lg:hidden">
+        <div class="div flex justify-around">
+            <img src="assets/Group.png" class="w-[30%] h-[5vh]" alt="">
+            <img src="assets/zara-logo-1 1.png" class="w-[30%] h-[5vh]" alt="">
+            <img src="assets/gucci-logo-1 1.png" class="w-[30%] h-[5vh]" alt="">
+        </div>
+       
+        <div class="div flex justify-evenly items-center my-4">
+            <img src="assets/prada-logo-1 1.png" class="w-[30%] h-[5vh]" alt="">
+            <img src="assets/Group (1).png" class="w-[30%] h-[5vh]" alt="">
+        </div>
+     </div>
+    <!-- Product List Section -->
+    <div id="productList" class="product-list flex flex-wrap justify-center gap-6 p-4 my-5"></div>
+
+    <!-- Product Details Section -->
+    <!-- <div id="productDetails" class="product-details hidden p-4 bg-white shadow-md rounded-lg"></div> -->
+
+    <!-- Shopping Cart Section -->
+    <aside id="cartSidebar" class="fixed top-0 right-0 w-3/4 lg:w-1/4 bg-white shadow-md h-full hidden  p-4 overflow-auto">
+        <h2 class="text-xl font-bold">Shopping Cart</h2>
+        <button id="closeCart" class="bg-red-500 text-white px-2 py-1 rounded-lg">Close</button>
+        <div id="cartItems" class="my-4"></div>
+        <div class="font-bold">Total Price: $<span id="cartTotal">0.00</span></div>
+    </aside>
+
+    <!-- Footer and email -->
+    <div class="email mx-3 lg:my-14 lg:mx-32 lg:flex lg:justify-around border border-black bg-black px-4 py-10 rounded-2xl align-middle relative">
+        <div class="offers text-4xl text-white lg:flex font-extrabold hidden">
+            <h3>STAY UPTO DATE ABOUT <span class="lg:flex lg:flex-col">OUR LATEST OFFERS</span></h3>
+        </div>
+        <!-- For small screen -->
+        <div class="offers text-[1.7rem] text-white flex font-extrabold lg:hidden">
+            <h3>STAY UPTO DATE <span class="flex flex-col">ABOUT OUR</span> LATEST OFFERS</h3>
+        </div>
+        <form class="flex flex-col my-4 lg:my-0">
+            <input type="email" class="border border-black px-6 py-2 rounded-full" placeholder="Enter your Email"><br>
+            <button class="border border-black bg-white px-9 py-2 my-[-0.8rem] rounded-full">Subscribe to Newsletter</button>
+        </form>
+       
+    </div>
+
+
+    <div class="footer bg-[#F2F0F1] h-[170vh] lg:h-full my-[-13rem] lg:my-[-8rem] -z-10 flex flex-col lg:flex lg:flex-row">
+        <div class="first-row lg:mx-32 mx-3 lg:py-32 py-60">
+            <div class="log text-3xl lg:text-4xl font-extrabold">
+                <h3>SHOP.CO</h3>
+            </div>
+            <div class="rite flex my-5 text-gray-600 text-sm lg:text-lg">
+                <p>We have clothes that suits your style and <span class="lg:flex lg:flex-col">which you're proud to wear. From</span> <span>women to men</span></p>
+            </div>
+            <div class="logos flex gap-2">
+                <img src="assets/twitter.png" alt="">
+                <img src="assets/facebook.png" alt="">
+                <img src="assets/instagram.png" alt="">
+                <img src="assets/git.png" alt="">
+            </div>
+        </div>
+        <div class="special lg:flex flex mx-3 lg:mx-[4rem] my-[-9rem] lg:my-0">
+            <div class="second-row lg:py-[8.5rem]">
+                <div class="company">
+                    <h4>COMPANY</h4>
+                </div>
+                <div class="flex flex-col my-3 gap-3">
+                    <a href="#">About</a>
+                    <a href="#">Features</a>
+                    <a href="#">Works</a>
+                    <a href="#">Career</a>
+    
+                </div>
+            </div>
+            <div class="third-row lg:mx-[5rem] lg:py-[8.5rem]">
+                <div class="help">
+                    <h4>HELP</h4>
+                </div>
+                <div class="flex flex-col my-3 gap-3">
+                    <a href="#">Customer Support</a>
+                    <a href="#">Delivery Details</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+    
+                </div>
+            </div>
+            <div class="fourth-row lg:py-[8.5rem]">
+                <div class="faq">
+                    <h4>FAQ</h4>
+                </div>
+                <div class="flex flex-col my-3 gap-3">
+                    <a href="#">Accounts</a>
+                    <a href="#">Manage Deliveries</a>
+                    <a href="#">Orders</a>
+                    <a href="#">Payments</a>
+    
+                </div>
+            </div>
+            <div class="fourth-row lg:mx-[5rem] lg:py-[8.5rem]">
+                <div class="resources">
+                    <h4>RESOURCES</h4>
+                </div>
+                <div class="flex flex-col my-3 gap-3">
+                    <a href="#">Free eBooks</a>
+                    <a href="#">Development Tutorial</a>
+                    <a href="#">How To Blog</a>
+                    <a href="#">Youtube Playlist</a>
+    
+                </div>
+            </div>
+        </div>
+       
+    </div>
+   
+
+        
+
+    <script src="script.js"></script>
+</body>
+
+</html>
